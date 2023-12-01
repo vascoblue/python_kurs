@@ -1,0 +1,108 @@
+Ćwiczenie 2
+Wykonaj następujące czynności:
+
+Utwórz zmienną o nazwie name i przypisz do niej łańcuch znaków 'Python'.
+
+Wykorzystując funkcję print(), wydrukuj do konsoli przywitanie 'Cześć, Python', korzystając z wartości zmiennej name.
+
+Aby ułatwić zrozumienie rozwiązania, kod został podzielony na sekcje opatrzone komentarzami.
+
+Oczekiwany wynik:
+
+Cześć, Python
+  --------------------------------------------------------------------------------------------------------------
+Moje rozwiazenie 
+# Wydrukowanie 'Czesć, Python' do konsoli
+name = 'Python'
+print('{1} {0}'.format(name,'Czesć'))
+  ----------------------------------------------------------------------------------------------------------------
+
+Rozwiązanie  kursowe 
+Rozwiązanie I:
+
+# Utworzenie zmiennej o nazwie name
+name = 'Python'
+ 
+# Wydrukowanie 'Czesć, Python' do konsoli
+print('Cześć, {}'.format(name))
+
+
+Rozwiązanie II:
+
+# Utworzenie zmiennej o nazwie name
+name = 'Python'
+ 
+# Wydrukowanie 'Czesć, Python' do konsoli
+print(f'Cześć, {name}')
+----------------------------------------------------------------------------------------------------------------------
+Ćwiczenie 3
+Podane są poniższe zmienne:
+
+name = 'John'
+age = 25
+height = 180.5
+
+Wykorzystując funkcję print() oraz podane zmienne wydrukuj poniższy tekst do konsoli.
+
+My name is John and I'm 25 years old.
+My height is 180.5 cm.
+----------------------------------------------------------------------------------------
+Moje rozwiązanie 
+name = 'John'
+age = 25
+height = 180.5
+
+# Enter your solution here
+print ("My name is {} and I'm {} years old. My height is {} cm " .format(name,age,height))
+-----------------------------------------------------------------------------------------------------------
+Rozwiązanie kursowe 
+Rozwiązanie 3
+Rozwiązanie I:
+
+name = 'John'
+age = 25
+height = 180.5
+ 
+print('My name is', name, 'and I\'m', age, 'years old.')
+print('My height is', height, 'cm.')
+
+
+Rozwiązanie II:
+
+name = 'John'
+age = 25
+height = 180.5
+ 
+print(f'My name is {name} and I\'m {age} years old.')
+print(f'My height is {height} cm.')
+  -------------------------------------------------------------------------------------------------------------
+  Ćwiczenie 4
+Podane są poniższe zmienne:
+
+name = 'Alice'
+age = 30
+height = 165.5
+
+Wykorzystując funkcję print() oraz podane zmienne wydrukuj poniższy tekst do konsoli.
+
+Alice|30|165.5
+---------------------------------------------------------------------------------
+Moje rozwiązanie
+name = 'Alice'
+age = 30
+height = 165.5
+
+# Enter your solution here
+print('{}|{}|{}'.format(name,age,height))
+----------------------------------------------------------------------------
+Rozwiązanie kursowe
+Rozwiązanie 4
+name = 'Alice'
+age = 30
+height = 165.5
+ 
+print(name, age, height, sep='|')
+---------------------------------------------------------------------------------
+
+  
+
